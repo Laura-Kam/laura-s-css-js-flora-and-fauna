@@ -4,7 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Laura's Flora and Fauna</title>
+    <!-- Why should css be in the head section? -->
+    <!-- CSS loads before page content - faster speed -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- Why is link used? -->
+    <!-- For external stylesheets -->
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>This is my HEADER</h1>
+
+      <span>It includes my site name, a logo and possibly navigation</span>
+    </header>
+    <nav>
+      My NAV includes links to different pages
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Contact</a></li>
+        <li><a href="/events">Current Events</a></li>
+      </ul>
+    </nav>
+    <aside>THIS IS MY ASIDE</aside>
+    <main>
+      The MAIN section is used to wrap around the main content of a webpage.
+      <span>This is usual the main article/ Blog/ News story</span>
+      <section>
+        <h2>This is a SECTION</h2>
+        <span
+          >It contains grouped content, and splits the webpage into sections. It
+          is larger than an article- which is self-contained information</span
+        >
+        <article>
+          <h3>This is my 1st ARTICLE.</h3>
+          <p>
+            - Self contained content that stands alone. E.g news article, blog
+            post, film review
+          </p>
+        </article>
+        <article>
+          <h4>This is my SECOND ARTICLE.</h4>
+          <p>
+            - Self contained content that stands alone. E.g news article, blog
+            post, film review
+          </p>
+        </article>
+      </section>
+    </main>
+    <!-- why is script at the bottom of body? -->
+    <!-- Loads content before js, functionality faster load -->
+    <!-- why script used? -->
+    <!-- To link to JS files. -->
+    <script src="/index.js"></script>
+  </body>
 </html>

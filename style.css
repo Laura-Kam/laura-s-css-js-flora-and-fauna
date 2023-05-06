@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+
+    /* This did not create a margin between the other elements, 
+    this needs to be done individually */
+    margin: 10px;
+   padding: 10px;
+}
+
+header {
+    background-color: lightcyan;
+    margin: 15px;
+}
+
+li {
+    display: inline;
+}
+section {
+    border: 5px solid green;
+    margin: 15px;
+   
+}
+
+section h2 {
+    color: green;
+    margin: 15px;
+}
+
+
+
+article {
+    border: 3px solid darkmagenta;
+  }
+/* 
+  What are these combined css selectors called? */
+  /* Descendent combinators */
+  article h3 {
+      color: darkmagenta
+  }
+
+  article h4 {
+    color: darkmagenta
+}
+
+main {
+    /* margin: 10px; */
+    /* Do not use commas between multiple properties css. */
+    border: 10px solid lightpink;
+    /* How can I put the main content to the right of my aside? */
+    float: right;
+}
+
+aside {
+    /* How can I put my aside to the left of my main content */
+    float: left;
+    /* margin: 20px; */
+    border: 10px solid grey;
+    background-color: bisque;
+    height: 344px;
+    width: 300px;
+}
