@@ -1,0 +1,35 @@
+/* I have a margin of 8px and display block from user agent
+What does this mean? */
+
+/* Defaults given by the browser */
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    margin: 50px;
+    display: border-box grid;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+article {
+    /* What does display inline block do? */
+    display: inline-block;
+    border: 5px solid black;
+    margin: 15px;
+}
+
+main {
+    display: border-box;
+    padding: 50px;
+}
+
+button {
+    display: block;
+   
+}
+p {
+    border: red;
+}

@@ -18,15 +18,39 @@
       <span>It includes my site name, a logo and possibly navigation</span>
     </header>
     <nav>
-      My NAV includes links to different pages
+      My NAV.
+
+      <button onclick="showAnswer()" id="questionButton" type="button">
+        How did I make these links <strong>*below*</strong> sit next <br />
+        to each other and not underneath?
+      </button>
+      <div id="answerParagraph">By using <strong>display: inline</strong></div>
       <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="./Functions/numbers/numbers.html">Number Functions</a></li>
+        <li><a href="/">Contact</a></li>
+        <li><a href="/events">Current Events</a></li>
         <li><a href="/">Home</a></li>
         <li><a href="/">About</a></li>
         <li><a href="/">Contact</a></li>
         <li><a href="/events">Current Events</a></li>
+        <br />
+        <p>
+          These lists/links have been changed to display: inline, to override
+          block. <br />This is so they sit next to each other.
+        </p>
       </ul>
     </nav>
-    <aside>THIS IS MY ASIDE</aside>
+    <aside>
+      THIS IS MY ASIDE
+      <button id="asideQuestion" type="button" onclick="revealAnswer()">
+        How do I put the 'aside' <br />
+        next to the main section?
+      </button>
+      <div id="asideAnswer">
+        you use float: <br />left in css and main - float: right;
+      </div>
+    </aside>
     <main>
       The MAIN section is used to wrap around the main content of a webpage.
       <span>This is usual the main article/ Blog/ News story</span>
@@ -56,6 +80,6 @@
     <!-- Loads content before js, functionality faster load -->
     <!-- why script used? -->
     <!-- To link to JS files. -->
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
