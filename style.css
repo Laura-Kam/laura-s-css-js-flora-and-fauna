@@ -1,25 +1,42 @@
 body {
-    text-align: center;
-
     /* This did not create a margin between the other elements, 
     this needs to be done individually */
     margin: 10px;
    padding: 10px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
 }
 
-header {
+.main-header {
+    width: 100%;
     background-color: lightcyan;
-    margin: 15px;
+    padding: 8px 16px;
 }
 
-li {
-    display: inline;
+.main-header > div {
+    display: inline-block;
 }
 
-ul p {
-    display: inline;
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100%-154px)
 }
+
+.main-nav-items {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.main-nav-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+ }
+
+
 section {
     border: 5px solid green;
     margin: 15px;
@@ -64,5 +81,15 @@ aside {
     height: 344px;
     width: 300px;
 }
+
+li {
+    display: inline-block;
+}
+
+div a{
+    text-align: left;
+}
+
+ul
 
 

@@ -10,19 +10,19 @@ console.log("It works chill");
 // }
 // declaring variables from ids
 
-const questionBtn = document.getElementById("questionButton");
-const answerP = document.getElementById("answerParagraph");
+// const questionBtn = document.getElementById("questionButton");
+// const answerP = document.getElementById("answerParagraph");
 
-//create an event listener.
+// //create an event listener.
 
-questionBtn.addEventListener("click", function showAnswer() {
-  //the problem here was I have to start with 'none'
-  if (answerP.style.display == "none") {
-    answerP.style.display = "block";
-  } else {
-    answerP.style.display = "none";
-  }
-});
+// questionBtn.addEventListener("click", function showAnswer() {
+//   //the problem here was I have to start with 'none'
+//   if (answerP.style.display == "none") {
+//     answerP.style.display = "block";
+//   } else {
+//     answerP.style.display = "none";
+//   }
+// });
 
 //The error here was I was a comparison operator, not an assignment operator to change display property.
 const asideQuestion = document.getElementById("asideQuestion");

@@ -12,35 +12,35 @@
     <!-- For external stylesheets -->
   </head>
   <body>
-    <header>
-      <h1>This is my HEADER</h1>
-
-      <span>It includes my site name, a logo and possibly navigation</span>
+    <header class="main-header">
+      <div>
+        <a class="main-header-brand" href="./brand"
+          >Laura's Flora and Fauna Brand</a
+        >
+      </div>
+      <nav class="main-nav">
+        <!-- <button onclick="showAnswer()" id="questionButton" type="button">
+          How did I make these links <strong>*below*</strong> sit next <br />
+          to each other and not underneath?
+        </button>
+        <div id="answerParagraph">
+          By using <strong>display: inline</strong>
+        </div> -->
+        <ul class="main-nav-items">
+          <li class="main-nav-item"><a href="/">Home</a></li>
+          <li>
+            <a href="./Functions/numbers/numbers.html">Number Functions</a>
+          </li>
+          <li class="main-nav-item"><a href="/">Contact</a></li>
+          <li class="main-nav-item"><a href="/events">Current Events</a></li>
+          <li class="main-nav-item"><a href="/">Home</a></li>
+          <li class="main-nav-item"><a href="/">About</a></li>
+          <li class="main-nav-item"><a href="/">Contact</a></li>
+          <li class="main-nav-item"><a href="/events">Current Events</a></li>
+          <br />
+        </ul>
+      </nav>
     </header>
-    <nav>
-      My NAV.
-
-      <button onclick="showAnswer()" id="questionButton" type="button">
-        How did I make these links <strong>*below*</strong> sit next <br />
-        to each other and not underneath?
-      </button>
-      <div id="answerParagraph">By using <strong>display: inline</strong></div>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="./Functions/numbers/numbers.html">Number Functions</a></li>
-        <li><a href="/">Contact</a></li>
-        <li><a href="/events">Current Events</a></li>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
-        <li><a href="/events">Current Events</a></li>
-        <br />
-        <p>
-          These lists/links have been changed to display: inline, to override
-          block. <br />This is so they sit next to each other.
-        </p>
-      </ul>
-    </nav>
     <aside>
       THIS IS MY ASIDE
       <button id="asideQuestion" type="button" onclick="revealAnswer()">
