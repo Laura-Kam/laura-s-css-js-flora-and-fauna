@@ -7,40 +7,60 @@ body {
    text-align: center;
 }
 
+
 .main-header {
     width: 100%;
-    background-color: lightcyan;
+    background: #2ddf5c;
     padding: 8px 16px;
 }
 
 .main-header > div {
     display: inline-block;
+    /* this aligns text in the middle of a div */
+    vertical-align: middle;
+}
+
+.main-header__brand {
+font-weight: bold;
+font-size: 22px;
+text-align: right;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100%-154px)
+    /* this makes the nav smaller so that the brand can fit inline (block); */
+    width: calc(100% - 100px);
+    vertical-align: middle;
+   
 }
-
-.main-nav-items {
-   list-style: none;
-   margin: 0;
-   padding: 0;
+ul a {
+    text-decoration: none;
 }
-
-.main-nav-item {
-    list-style: none;
+.main-nav__items {
+    /* list style gets rid of default underlined links */
     margin: 0;
     padding: 0;
-    text-align: right;
- }
+    list-style: none;
+    /* text-decoration only works from anchor tag - this will have no effect. */
+    /* text-decoration: none; */
+}
+
+.main-nav__item {
+   /* inline-block allows margin and padding sizing, inline */
+    display: inline-block;
+    /* this styles it on one line-readable. */
+    margin: 10px, 40px;
+ text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: red;
 
 
 section {
     border: 5px solid green;
-    margin: 15px;
-   
+    margin: 15px; 
 }
 
 section h2 {
@@ -82,14 +102,12 @@ aside {
     width: 300px;
 }
 
-li {
-    display: inline-block;
-}
+
 
 div a{
     text-align: left;
 }
 
-ul
+
 
 

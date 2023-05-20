@@ -35,3 +35,9 @@ asideQuestion.addEventListener("click", function revealAnswer() {
     asideAnswer.style.display = "none";
   }
 });
+
+firstSibling = document.querySelector("#parentElement > p");
+
+secondSibling = firstSibling.nextElementSibling;
+
+console.log(secondSibling);
