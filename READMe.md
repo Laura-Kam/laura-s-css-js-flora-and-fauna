@@ -52,7 +52,11 @@ Free images taken from Unsplash.com
 
 ## Screenshot
 
+### Day 1
+
 ![screenshotDay1Progress](https://user-images.githubusercontent.com/104718053/236626909-dcf52795-970d-4474-9c7c-0e1ca5062e84.png)
+
+### Day 1
 
 ![screenshotDay10Progress](https://user-images.githubusercontent.com/104718053/239733895-fb01dd25-ad82-43b3-a31f-58c20dc566de.png)
 
