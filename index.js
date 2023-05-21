@@ -55,3 +55,7 @@ const mySibling = child.nextElementSibling; // Retrieve the next sibling element
 mySibling.setAttribute("class", "this-is-the-second-another-list-item"); // Set the class attribute of the sibling element
 
 mySibling.textContent = "Learning";
+
+const item = document.getElementById("second-article");
+const value = item.childNodes[2].nodeValue;
+console.log(value);
