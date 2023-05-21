@@ -1,8 +1,8 @@
 body {
     /* This did not create a margin between the other elements, 
     this needs to be done individually */
-    margin: 10px;
-   padding: 10px;
+    margin-bottom: 10px;
+   /* padding: 10px; */
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-align: center;
 }
@@ -10,7 +10,7 @@ body {
 
 .main-header {
     width: 100%;
-    background: #2ddf5c;
+    background: #b8f2e6;
     padding: 8px 16px;
 }
 
@@ -24,13 +24,14 @@ body {
 font-weight: bold;
 font-size: 22px;
 text-align: right;
+text-decoration: none;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
     /* this makes the nav smaller so that the brand can fit inline (block); */
-    width: calc(100% - 100px);
+    width: calc(100% - 300px);
     vertical-align: middle;
    
 }
@@ -55,11 +56,38 @@ ul a {
     /* this styles it on one line-readable. */
     margin: 10px 40px;
  text-decoration: none;
+
+}
+ a {
+    color: #5e6472;
+    
+ }
+/* 
+grouping stylesheets if the value is the same */
+.main-nav__item a:hover {
+    color: #013e3e;
 }
 
-.main-nav__item a:hover {
-    color: white;
+/* Call to action stands out */
+.main-nav__item--cta a {
+background: #ffa69e;
+/* top and bottom first, left and right */
+padding: 8px 16px;
+border-radius: 8px;
 }
+
+.main-nav__item--cta a:hover, .main-nav__item--cta a:active { 
+background: #ffbda8;
+text-shadow: #FAF3DD;
+}
+
+
+
+.main-nav__item a:active {
+    font-weight: bold;
+}
+
+
 
 section {
     border: 5px solid green;
@@ -80,7 +108,7 @@ section h2 {
 
 
 article {
-    border: 3px solid darkmagenta;
+    border: 3px solid #AED9E0;
   }
 /* 
   What are these combined css selectors called? */
@@ -90,25 +118,27 @@ article {
   }
 
   article h4 {
-    color: darkmagenta
+    color: #aed9e0;
 }
 
 main {
     /* margin: 10px; */
     /* Do not use commas between multiple properties css. */
-    border: 10px solid lightpink;
+    border: 10px solid #FFA69E;
     /* How can I put the main content to the right of my aside? */
     float: right;
+    margin-top: 30px;
 }
 
 aside {
     /* How can I put my aside to the left of my main content */
     float: left;
-    /* margin: 20px; */
+   
     border: 10px solid grey;
-    background-color: bisque;
+    background-color: #FAF3DD;
     height: 344px;
     width: 300px;
+    margin-top: 30px;
 }
 
 
