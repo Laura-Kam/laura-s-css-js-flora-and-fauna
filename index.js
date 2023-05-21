@@ -41,3 +41,17 @@ firstSibling = document.querySelector("#parentElement > p");
 secondSibling = firstSibling.nextElementSibling;
 
 console.log(secondSibling);
+
+const first = document.querySelector(".first");
+
+const findClassValue = first.getAttribute("class");
+
+console.log(findClassValue);
+
+const child = document.getElementsByClassName("first")[0]; // Access the first element with the class "first"
+
+const mySibling = child.nextElementSibling; // Retrieve the next sibling element
+
+mySibling.setAttribute("class", "this-is-the-second-another-list-item"); // Set the class attribute of the sibling element
+
+mySibling.textContent = "Learning";

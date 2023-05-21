@@ -34,8 +34,11 @@ text-align: right;
     vertical-align: middle;
    
 }
+ 
+
 ul a {
     text-decoration: none;
+
 }
 .main-nav__items {
     /* list style gets rid of default underlined links */
@@ -50,18 +53,24 @@ ul a {
    /* inline-block allows margin and padding sizing, inline */
     display: inline-block;
     /* this styles it on one line-readable. */
-    margin: 10px, 40px;
+    margin: 10px 40px;
  text-decoration: none;
 }
 
 .main-nav__item a:hover {
-    color: red;
-
+    color: white;
+}
 
 section {
     border: 5px solid green;
     margin: 15px; 
 }
+
+section {
+    border: 5px solid green;
+    margin: 15px; 
+}
+
 
 section h2 {
     color: green;
@@ -107,6 +116,7 @@ aside {
 div a{
     text-align: left;
 }
+
 
 
 
