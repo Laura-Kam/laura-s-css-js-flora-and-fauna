@@ -69,18 +69,22 @@ ul a {
 grouping stylesheets if the value is the same */
 .main-nav__item a:hover {
     color: #013e3e;
+    font-weight: bold;
 }
+
+
 
 /* Call to action stands out */
 .main-nav__item--cta a {
-background: #ffa69e;
+background: #ffbda8;
+
 /* top and bottom first, left and right */
 padding: 8px 16px;
 border-radius: 8px;
 }
 
 .main-nav__item--cta a:hover, .main-nav__item--cta a:active { 
-background: #ffbda8;
+background: #ffa69e;
 text-shadow: #FAF3DD;
 }
 
@@ -125,11 +129,11 @@ article {
 }
 
 main {
-    /* margin: 10px; */
+    margin: 10px; 
     /* Do not use commas between multiple properties css. */
-    /* border: 10px solid #FFA69E; */
+    border: 10px solid #FFA69E; 
     /* How can I put the main content to the right of my aside? */
-    /* float: right; */
+    float: right;
 
 }
 
