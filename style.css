@@ -1,10 +1,10 @@
 body {
     /* This did not create a margin between the other elements, 
     this needs to be done individually */
-    margin-bottom: 10px;
    /* padding: 10px; */
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-align: center;
+   margin: 0;;
 }
 
 
@@ -12,6 +12,9 @@ body {
     width: 100%;
     background: #b8f2e6;
     padding: 8px 16px;
+   
+    margin-bottom: 0;
+    margin-top: 0; 
 }
 
 .main-header > div {
@@ -124,10 +127,10 @@ article {
 main {
     /* margin: 10px; */
     /* Do not use commas between multiple properties css. */
-    border: 10px solid #FFA69E;
+    /* border: 10px solid #FFA69E; */
     /* How can I put the main content to the right of my aside? */
-    float: right;
-    margin-top: 30px;
+    /* float: right; */
+
 }
 
 aside {
@@ -146,6 +149,18 @@ aside {
 div a{
     text-align: left;
 }
+
+.hero-image {
+    background-image: url("https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80");
+    background-size: cover;
+    background-position: center top;
+    margin-top: 0;
+    height: 300px;
+    width: 100%;
+    /* border: 10px solid #FFA69E; */
+    margin-left: auto; /* Align the div to the center */
+    margin-right: auto; /* Align the div to the center */
+  }
 
 
 
