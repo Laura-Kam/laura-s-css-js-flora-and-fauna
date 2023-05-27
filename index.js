@@ -28,14 +28,14 @@ firstSibling = document.querySelector("#parentElement > p");
 
 //Practising textContent part 2 - changed nav item one to blog posts using the DOM.
 
-//Index 0 needed as otherwise textContent targets a collection of elements
-// const navItemOne = document.getElementsByClassName("main-nav__item1")[0];
-// navItemOne.textContent = "Blog Posts";
+// Index 0 needed as otherwise textContent targets a collection of elements
+const navItemOne = document.getElementsByClassName("main-nav__item1")[0];
+navItemOne.textContent = "Blog Posts";
 
-// console.log(
-//   "This is what my textContent has targetted with index 0: " +
-//     navItemOne.textContent
-// );
+console.log(
+  "This is what my textContent has targetted with index 0: " +
+    navItemOne.textContent
+);
 
 //Practising textContent part 3 - changed nav item one to blog posts using the DOM.
 

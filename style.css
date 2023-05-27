@@ -65,12 +65,30 @@ ul a {
     color: #5e6472;
     
  }
+
+ #product-overview {
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
 /* 
 grouping stylesheets if the value is the same */
 .main-nav__item a:hover {
     color: #013e3e;
     font-weight: bold;
 }
+
+
 
 
 
@@ -96,56 +114,13 @@ text-shadow: #FAF3DD;
 
 
 
-section {
-    border: 5px solid green;
-    margin: 15px; 
-}
-
-section {
-    border: 5px solid green;
-    margin: 15px; 
-}
-
-
-section h2 {
-    color: green;
-    margin: 15px;
-}
-
-
-
-article {
-    border: 3px solid #AED9E0;
-  }
-/* 
-  What are these combined css selectors called? */
-  /* Descendent combinators */
-  article h3 {
-      color: darkmagenta
-  }
-
-  article h4 {
-    color: #aed9e0;
-}
-
 main {
-    margin: 10px; 
-    /* Do not use commas between multiple properties css. */
-    border: 10px solid #FFA69E; 
-    /* How can I put the main content to the right of my aside? */
-    float: right;
+
 
 }
 
 aside {
-    /* How can I put my aside to the left of my main content */
-    float: left;
-   
-    border: 10px solid grey;
-    background-color: #FAF3DD;
-    height: 344px;
-    width: 300px;
-    margin-top: 30px;
+ 
 }
 
 
