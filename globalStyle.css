@@ -1,0 +1,14 @@
+body {
+    /* This did not create a margin between the other elements, 
+    this needs to be done individually */
+   /* padding: 10px; */
+   font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   margin: 0;
+}
+
+
+
+
+ 

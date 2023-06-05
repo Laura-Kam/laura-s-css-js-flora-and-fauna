@@ -1,0 +1,36 @@
+/* HERO SECTION */
+
+.hero-image {
+    background-image: url("./src/devPicLKBluecopy1.png"); 
+    background-size: cover;
+   background-position: center top ;
+   margin-top: 70px;
+   height: 270px; 
+   width: 25%;
+ /* float: left;  */
+   /* border: 10px solid #FFA69E;  */
+   margin-left: auto; 
+   margin-right: auto;  
+ }
+
+ .about-me-paragraph-main {
+   line-height: 28px;
+   color:black;
+   margin-bottom: 12px;
+}
+
+
+
+.about-me-paragraph {
+    line-height: 28px;
+    color: #333333;
+}
+
+
+
+
+#headline-3-words {
+   list-style-type: disc;
+   list-style-position: inside;
+   display:inline-block;
+ }

@@ -7,7 +7,11 @@
     <title>Laura's Flora and Fauna</title>
     <!-- Why should css be in the head section? -->
     <!-- CSS loads before page content - faster speed -->
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./globalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./headerStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./globalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./heroStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./projectsSection.css" />
     <!-- Why is link used? -->
     <!-- For external stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,26 +26,32 @@
     />
   </head>
   <body>
+    <!-- HEADER -->
     <header class="main-header">
       <div>
         <a class="main-header__brand" id="my-brand-name-id" href="./brand"
           >Laura's Flora and Fauna</a
         >
       </div>
+      <!-- NAV -->
       <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item">
-            <a href="/">Blog Posts</a>
+            <a href="/blog">Blog</a>
           </li>
           <li class="main-nav__item main-nav__item2">
-            <a href="/events">JavaScript Projects</a>
+            <a href="/javascriptprojects">JavaScript Projects</a>
           </li>
           <li class="main-nav__item main-nav__item3">
-            <a href="/events">CSS Projects</a>
+            <a href="/cssprojects">CSS Projects</a>
           </li>
           <li class="main-nav__item main-nav__item4">
-            <a href="/events">UX/UI Visual Projects</a>
+            <a href="/uxuivisualprojects">UX/UI Visual Projects</a>
           </li>
+          <li class="main-nav__item main-nav__item5">
+            <a href="/about">About</a>
+          </li>
+
           <li class="main-nav__item main-nav__item--cta">
             <a href="/">Contact</a>
           </li>
@@ -49,15 +59,16 @@
           <br />
         </ul>
       </nav>
+      <!-- END OF NAV -->
     </header>
+    <!-- HERO -->
     <hero>
       <div class="hero-image"></div>
-      <div>
+      <div class="full-paragraph">
         <h1 class="section-title">Hi, I'm Laura Kay</h1>
 
         <h3 class="section-title">
-          I'm a UI/UX frontend developer, a career-switcher and a coding
-          enthusiast. <br /><br />
+          I'm a UI/UX frontend developer and a coding enthusiast. <br />
           <h3 class="about-me-paragraph">
             Through daily immersion, I mastered the foundations of code.
             <br />
@@ -66,7 +77,10 @@
         </h3>
         <h4 class="about-me-paragraph" s>Let's collaborate</h4>
       </div>
+      <div class="clearfix"></div>
     </hero>
+    <!-- END OF HERO -->
+    <!-- MAIN PROJECT SECTION -->
     <main>
       <!-- Section -->
 
@@ -121,6 +135,8 @@
         </article>
       </section>
     </main>
+
+    <!-- END OF MAIN PROJECT SECTION -->
 
     <!-- why is script at the bottom of body? -->
     <!-- Loads content before js, functionality faster load -->

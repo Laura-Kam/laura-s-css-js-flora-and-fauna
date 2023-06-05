@@ -1,0 +1,92 @@
+/* HEADER */
+
+
+.main-header {
+    width: 100%;
+    background: rgb(252, 252, 252);
+    padding: 8px 16px;
+   
+    margin-bottom: 0;
+    margin-top: 0; 
+}
+
+.main-header > div {
+    display: inline-block;
+    /* this aligns text in the middle of a div */
+    vertical-align: middle;
+}
+
+.main-header__brand {
+font-weight: bold;
+font-size: 22px;
+text-align: right;
+text-decoration: none;
+}
+
+/* NAV SECTION */
+
+/* Call to action stands out */
+.main-nav__item--cta a {
+    background: #ffbda8;
+    
+    /* top and bottom first, left and right */
+    padding: 8px 16px;
+    border-radius: 8px;
+    }
+    
+    .main-nav__item--cta a:hover, .main-nav__item--cta a:active { 
+    background: #ffa69e;
+    text-shadow: #FAF3DD;
+    }
+    
+    
+    
+    .main-nav__item a:active {
+        font-weight: bold;
+    }
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    /* this makes the nav smaller so that the brand can fit inline (block); */
+    width: calc(100% - 300px);
+    vertical-align: middle;
+   
+}
+ 
+
+ul a {
+    text-decoration: none;
+
+}
+.main-nav__items {
+    /* list style gets rid of default underlined links */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* text-decoration only works from anchor tag - this will have no effect. */
+    /* text-decoration: none; */
+}
+
+.main-nav__item {
+   /* inline-block allows margin and padding sizing, inline */
+    display: inline-block;
+    /* this styles it on one line-readable. */
+    margin: 10px 40px;
+ text-decoration: none;
+
+}
+ a {
+    color: black;
+    
+ }
+
+ /* 
+grouping stylesheets if the value is the same */
+.main-nav__item a:hover {
+    color: #013e3e;
+    font-weight: bold;
+}
+
+
+/* END OF NAV SECTION */
