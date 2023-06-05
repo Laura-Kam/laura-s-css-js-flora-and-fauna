@@ -12,7 +12,7 @@
 }
 
 .main-body-content {
-   background:rgb(251, 250, 250);
+   background:rgba(248, 247, 247, 0.932);
 }
 
 #product-overview h1 {
@@ -27,7 +27,8 @@ div a{
 
 
 .project {
-    background-color: #f9e3da;
+    background: white;
+    /* background-color: #f9e3da; */
     text-align: center;
     padding: 16px;
     margin: 30px;
@@ -43,16 +44,20 @@ div a{
 }
 
 .highlighted-project {
-    background: #f3b29a;
-  box-shadow:2px 2px 8px 1px rgb(210, 210, 210);
+
+    /* background: #f3b29a; */
+    background: white;
+  box-shadow:4px 4px 7px 3px rgba(185, 185, 185, 0.903);
     width: 24%;
-    
+
 }
 
 .project-button {
     border-radius: 20px;
     border: 0;
-    background: #e1537d;
+    /* background: #fe2d6cab; */
+    background-color:#dd9c89;
+    /* background: #e1537d; */
     color: white;
     font-size: 15px;
     display: inline-block;
@@ -65,9 +70,20 @@ div a{
 .project-button:hover {
     border-radius: 20px;
     border: 0;
-    background: #e1537d;
+    background: #d09481;
     color: white;
     display: inline-block;
     box-shadow:1px 1px 3px 2px rgb(197, 197, 197);
 }
 
+#main-project-label {
+    /* border: solid;
+    border-width: 5px; */
+    /* background-color:#ffbda8; */
+    background-color:#ffbca84f;
+    border-radius: 20px;
+    padding: 4px;
+    margin-block-end: 1px;
+    margin-block-start: 3px;
+    box-shadow:2px 2px 5px 2px rgb(197, 197, 197);
+}
