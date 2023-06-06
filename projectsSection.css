@@ -47,9 +47,27 @@ div a{
 
     /* background: #f3b29a; */
     background: white;
+    border-style: solid;
+    border-width: 6px;
+    border-color: pink;
   box-shadow:4px 4px 7px 3px rgba(185, 185, 185, 0.903);
     width: 24%;
 
+}
+
+.project__image {
+    margin-top: 15px;
+    width: auto;
+  height: auto;
+
+}
+
+#github__button {
+    background-color:white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #dd9c89;
+    color: #dd9c89;
 }
 
 .project-button {
@@ -59,12 +77,12 @@ div a{
     background-color:#dd9c89;
     /* background: #e1537d; */
     color: white;
-    font-size: 15px;
+    font-size: 15.5px;
     display: inline-block;
-    padding: 14px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 8px;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 6px;
 }
 
 .project-button:hover {
@@ -76,6 +94,17 @@ div a{
     box-shadow:1px 1px 3px 2px rgb(197, 197, 197);
 }
 
+.project__technology {
+    list-style:none;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.project__technology li {
+
+    margin: 6px 0px;
+}
 #main-project-label {
     /* border: solid;
     border-width: 5px; */
