@@ -3,12 +3,14 @@
 
 .main-header {
     width: 100%;
-    background: rgb(252, 252, 252);
+    /* background: rgb(252, 252, 252); */
+    background-color: white;
     padding: 8px 16px;
-   
+   font-weight:500;
     margin-bottom: 0;
     margin-top: 0; 
 }
+
 
 .main-header > div {
     display: inline-block;
@@ -17,7 +19,7 @@
 }
 
 .main-header__brand {
-font-weight: bold;
+font-weight: 500;
 font-size: 22px;
 text-align: right;
 text-decoration: none;
@@ -60,6 +62,7 @@ text-decoration: none;
 
 ul a {
     text-decoration: none;
+    font-weight: 600;
 
 }
 .main-nav__items {

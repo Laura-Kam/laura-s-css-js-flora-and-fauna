@@ -4,25 +4,30 @@
     background: url("freedom.jpg");
     width: 100%;
     height: 528px;
-    padding: 10px;   
+    padding: 10px;  
+    font-weight:300; 
 }
 
 .section-title {
     color: black;
+    font-weight:500; 
 }
 
 .main-body-content {
    background:rgba(248, 247, 247, 0.932);
+   font-weight:300; 
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    font-weight:300; 
 }
 
 
 div a{
     text-align: left;
+    font-weight:300; 
 }
 
 
@@ -37,6 +42,7 @@ div a{
     vertical-align: middle;
     width: 20%;
     box-shadow:1px 1px 8px 1px rgb(210, 210, 210);
+    font-weight:300; 
 }
 
 .project:hover {
@@ -52,7 +58,26 @@ div a{
     border-color: pink;
   box-shadow:4px 4px 7px 3px rgba(185, 185, 185, 0.903);
     width: 24%;
+    font-weight:300; 
 
+}
+
+.app__description {
+color: rgb(72, 72, 72);
+font-weight:300; 
+}
+
+/* Technology Labels */
+
+.technology__labels {
+    display:inline-block;
+    font-size: 12.5px;
+    margin: 6px;
+    background-color:rgb(229, 251, 253);
+    border-radius: 20px;
+    padding:6px;
+    color: rgb(103, 102, 102);
+    font-weight:300; 
 }
 
 .project__image {
@@ -68,6 +93,7 @@ div a{
     border-style: solid;
     border-color: #dd9c89;
     color: #dd9c89;
+    font-weight:300; 
 }
 
 .project-button {
@@ -83,6 +109,7 @@ div a{
     margin-left: 3px;
     margin-right: 3px;
     margin-top: 6px;
+    font-weight:300; 
 }
 
 .project-button:hover {
@@ -92,6 +119,7 @@ div a{
     color: white;
     display: inline-block;
     box-shadow:1px 1px 3px 2px rgb(197, 197, 197);
+    font-weight:300; 
 }
 
 .project__technology {
@@ -99,11 +127,13 @@ div a{
     padding: 0;
     margin-bottom: 10px;
     margin-top: 0;
+    font-weight:300; 
 }
 
 .project__technology li {
 
     margin: 6px 0px;
+    font-weight:300; 
 }
 #main-project-label {
     /* border: solid;
@@ -115,4 +145,5 @@ div a{
     margin-block-end: 1px;
     margin-block-start: 3px;
     box-shadow:2px 2px 5px 2px rgb(197, 197, 197);
+    font-weight:300; 
 }

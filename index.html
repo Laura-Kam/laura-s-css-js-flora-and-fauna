@@ -20,19 +20,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Different font weights added -->
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;600&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!-- HEADER -->
     <header class="main-header">
-      <div>
+      <!-- <div>
         <a class="main-header__brand" id="my-brand-name-id" href="./brand"
           >Laura's Flora and Fauna</a
         >
-      </div>
+      </div> -->
       <!-- NAV -->
       <nav class="main-nav">
         <ul class="main-nav__items">
@@ -62,7 +70,7 @@
       <!-- END OF NAV -->
     </header>
     <!-- HERO -->
-    <hero>
+    <hero id="hero_box">
       <div class="hero-image"></div>
       <div class="full-paragraph">
         <h1 class="section-title">Hi, I'm Laura Kay</h1>
@@ -91,14 +99,24 @@
 
         <article class="project">
           <!-- same class as each other has similar design -->
-          <h1 class="project__title">JavaScript Project 1</h1>
-          <h4>What it is</h4>
-          <h3 class="project__description">What technology I used</h3>
-          <ul class="project__technology">
-            <li>Decription</li>
-            <li>Decription</li>
-            <li>Decription</li>
-          </ul>
+          <h1 class="project__title">Therapy with Dee</h1>
+          <img
+            class="project__image"
+            src="./src/RTTScreenshot.png"
+            alt="Picture of a therapy website"
+          />
+          <h4 class="app__description">
+            About Real - world application built using Next JS. SEO, offering
+            services for therapy.
+          </h4>
+
+          <span class="technology__labels">Node.JS</span>
+          <span class="technology__labels">Javascript</span>
+          <span class="technology__labels">Next.js</span>
+          <span class="technology__labels">SEO</span>
+          <span class="technology__labels">Tailwind CSS</span>
+          <span class="technology__labels">Daisy UI</span>
+          <span class="technology__labels">JSX</span>
           <div>
             <button class="project-button">Visit Website</button>
             <button class="project-button" id="github__button">
@@ -112,13 +130,20 @@
           </h1>
           <img
             class="project__image"
-            src="./src/maifrigoScreenshot1.png"
+            src="./src/RecipeMonfrigo.png"
             alt="Recipe App Picture"
           />
-          <h4>
+          <h4 class="app__description">
             React JS App, full stack MERN application that allows you to create
             delicious recipes with zero-waste.
           </h4>
+          <span class="technology__labels">Node.JS</span>
+          <span class="technology__labels">Javascript</span>
+          <span class="technology__labels">MongoDB</span>
+          <span class="technology__labels">React.JS</span>
+          <span class="technology__labels">Express.JS</span>
+          <span class="technology__labels">3rd Party API</span>
+          <span class="technology__labels">JWT Authentification</span>
           <!-- <h3 class="project__description">What technology I used</h3> -->
           <!-- <ul class="project__technology">
             <li>Decription</li>
@@ -134,7 +159,7 @@
         </article>
         <article class="project">
           <h1 class="project__title">JavaScript Project 1</h1>
-          <h4>What it is</h4>
+          <h4 class="app__description">What it is</h4>
           <h3 class="project__description">What technology I used</h3>
           <ul class="project__technology">
             <li>Decription</li>
@@ -150,7 +175,7 @@
         </article>
         <article class="project">
           <h1 class="project__title">JavaScript Project 1</h1>
-          <h4>What it is</h4>
+          <h4 class="app__description">What it is</h4>
           <h3 class="project__description">What technology I used</h3>
           <ul class="project__technology">
             <li>Decription</li>
@@ -166,7 +191,7 @@
         </article>
         <article class="project">
           <h1 class="project__title">JavaScript Project 1</h1>
-          <h4>What it is</h4>
+          <h4 class="app__description">What it is</h4>
           <h3 class="project__description">What technology I used</h3>
           <ul class="project__technology">
             <li>Decription</li>
