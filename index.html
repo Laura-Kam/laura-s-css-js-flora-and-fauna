@@ -7,11 +7,12 @@
     <title>Laura's Flora and Fauna</title>
     <!-- Why should css be in the head section? -->
     <!-- CSS loads before page content - faster speed -->
-    <link rel="stylesheet" type="text/css" href="./globalStyle.css" />
-    <link rel="stylesheet" type="text/css" href="./headerStyle.css" />
-    <link rel="stylesheet" type="text/css" href="./globalStyle.css" />
-    <link rel="stylesheet" type="text/css" href="./heroStyle.css" />
-    <link rel="stylesheet" type="text/css" href="./projectsSection.css" />
+    <link rel="stylesheet" type="text/css" href="./css/globalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./css/headerStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./css/globalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./css/heroStyle.css" />
+    <link rel="stylesheet" type="text/css" href="./css/projectsSection.css" />
+    <link rel="stylesheet" type="text/css" href="./css/myAchievements.css" />
     <!-- Why is link used? -->
     <!-- For external stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -207,20 +208,28 @@
           </div>
         </article>
       </section>
-      <section>
-        <h1>Many Good Reasons to Stick Around</h1>
-        <ul>
-          <li>
-            <div></div>
-            <p>3,857,000 Trusting Customers</p>
+      <section id="key-achievements">
+        <h1 class="section-title">My top 4 key achievements this year</h1>
+        <ul class="key_feature_list">
+          <li class="key_feature_item">
+            <div class="key-feature-image"></div>
+            <p class="key-feature-description">22 GitHub Projects</p>
           </li>
-          <li>
-            <div></div>
-            <p>99.999% Uptime Guarantee</p>
+          <li class="key_feature_item">
+            <div class="key-feature-image"></div>
+            <p class="key-feature-description">
+              Udemy Courses - JS, CSS and React
+            </p>
           </li>
-          <li>
-            <div></div>
-            <p>Lightning Fast CDN</p>
+          <li class="key_feature_item">
+            <div class="key-feature-image"></div>
+            <p class="key-feature-description">5 Books read on UX/UI</p>
+          </li>
+          <li class="key_feature_item">
+            <div class="key-feature-image"></div>
+            <p class="key-feature-description">
+              Solid knowledge of Figma and Adobe XD
+            </p>
           </li>
         </ul>
       </section>

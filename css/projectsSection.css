@@ -45,10 +45,16 @@ div a{
     font-weight:300; 
 }
 
+
+
 .project:hover {
   transform: scale(1.05);
 }
 
+.project__title {
+    color: #bc8370;
+ 
+}
 .highlighted-project {
 
     /* background: #f3b29a; */
@@ -150,6 +156,7 @@ font-weight:300;
     margin-top: 0;
     font-weight:300; 
     padding: 16px;
+    
 }
 
 .project__technology li {

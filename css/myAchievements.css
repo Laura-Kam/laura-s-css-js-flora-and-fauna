@@ -1,0 +1,42 @@
+/* #3-key-achievements {
+
+} */
+
+/* Combinators are more specific, this overrides the other section title property */
+
+#key-achievements .section-title {
+color: rgba(1, 113, 157, 0.91);
+
+/* don't put px here */
+font-weight: 600;
+margin: 45px;
+}
+
+.key_feature_list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature-image {
+    border-radius: 50%;
+    border: 3px solid ;
+    width: 100px;
+    background-color:rgba(1, 113, 157, 0.91) ;
+    height: 35px;
+    margin: auto;
+}
+
+.key_feature_item {
+    display: inline-block;
+    width: 19%;
+    /* aligns within the line, text-align is within the whole div */
+    vertical-align: top;
+   
+}
+
+.key-feature-description {
+text-align:center;
+font-weight: 500;
+font-size: 20px;
+}
