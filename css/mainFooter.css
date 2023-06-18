@@ -1,0 +1,59 @@
+.main-footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #dd9d8956;
+    margin-top: 50px;
+    padding: 32px;
+}
+
+
+
+.main-footer ul {
+    /* display: flex; */
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+    /* width: 55%;
+    justify-content: center; */
+  
+}
+
+
+
+.main-footer li {
+   
+    color: grey;
+    font-weight: 500;
+    display: inline-block;
+    /* top and bottom 0, left right 16px */
+    /* this is where to change the margin of the list items */
+   margin: 0 25px;
+
+}
+
+.main-footer a {
+ 
+    color: grey;
+    font-weight: 500;
+    /* defines how long the transition effect should take to complete.  */
+    transition: transform 1s ease;
+   
+   
+}
+
+.main-footer a:hover {
+
+    color: rgb(90, 89, 89);
+}
+
+.main-footer a:active {
+    
+    color: rgb(102, 102, 102);
+    /* The scale(0.8) value reduces the size of the anchor tags 
+    to 80% of their original size, creating a zoom-out effect during the click or interaction. */
+    transform: scale(0.7);
+
+}

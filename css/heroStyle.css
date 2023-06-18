@@ -28,6 +28,15 @@
    
 }
 
+#hero-quote {
+  line-height: 28px;
+  font-style: italic;
+  color:rgba(0, 0, 0, 0.457);
+  font-size: 16px;
+  margin-bottom: 12px;  
+  font-weight: 300;
+}
+
 
 
 .about-me-paragraph {

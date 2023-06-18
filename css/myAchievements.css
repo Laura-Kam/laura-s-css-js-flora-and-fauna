@@ -5,25 +5,26 @@
 /* Combinators are more specific, this overrides the other section title property */
 
 #key-achievements .section-title {
-color: rgba(1, 113, 157, 0.91);
+color: rgb(66, 165, 205);
+
 
 /* don't put px here */
 font-weight: 600;
-margin: 45px;
+margin: 80px;
 }
 
 .key_feature_list {
-    margin: 0;
+    margin: 80px 0;
     padding: 0;
     text-align: center;
 }
 
 .key-feature-image {
     border-radius: 50%;
-    border: 3px solid ;
+    border: 3px transparent ;
     width: 100px;
-    background-color:rgba(1, 113, 157, 0.91) ;
-    height: 35px;
+    background-color:rgba(42, 178, 232, 0.421) ;
+    height: 90px;
     margin: auto;
 }
 
