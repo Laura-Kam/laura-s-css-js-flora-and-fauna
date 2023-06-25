@@ -13,11 +13,13 @@
     font-size: 12px;
     vertical-align: top;
     height: 600px;
-    width: 500px;
+    width: 503px;
     margin-left: 70px;
     text-align:start;
-   line-height: 1.2rem;
-    
+   line-height: 1.25rem;
+    /* background-color: rgba(128, 128, 128, 0.019); */
+    padding-left: 25px;
+    word-spacing: 1.2px;
   }
 
   .page-name {
