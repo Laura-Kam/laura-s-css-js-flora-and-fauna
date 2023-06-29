@@ -94,5 +94,14 @@ grouping stylesheets if the value is the same */
     font-weight: bold;
 }
 
+/* fixed position added to always have nav bar visible at top */
+header.main-header {
+    position: fixed;
+    top:0px;
+    background-color: rgba(128, 128, 128, 0.023);
+    /* included border and padding in viewport not content-box */
+    box-sizing: border-box;
+}
+
 
 /* END OF NAV SECTION */
