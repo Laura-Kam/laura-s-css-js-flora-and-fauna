@@ -13,10 +13,10 @@
     font-size: 12px;
     vertical-align: top;
     height: 600px;
-    width: 503px;
-    margin-left: 70px;
+    width: 450px;
+    margin-left: 90px;
     text-align:start;
-   line-height: 1.25rem;
+   line-height: 1.3rem;
    /* letter-spacing: 0.015rem; */
     
     padding-left: 25px;
@@ -51,13 +51,58 @@
     background-color: #dd9c89; /* Adjust the color as needed */
   }
 
+  #about-me-top-paragraph {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 300;
+color: rgb(28, 28, 28);
+    margin-top: 5px;
+    margin-bottom: 16px;
+      letter-spacing: 0.015rem;
+  }
+
+  #job-role{
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  #capital-letter {
+    /* font-size: 1.7rem;
+    font-weight: bold; */
+    text-decoration: none;
+  }
+
+  .inner-headings {
+    text-align: left;
+    font-size: 1.08rem;
+    font-weight: 300;
+color: rgb(31, 31, 31);
+    margin-top: 3px;
+ 
+    margin-right: 12px;
+      letter-spacing: 0.015rem;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+  }
+
+  .inner-headings::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #dd9c89; /* Adjust the color as needed */
+  }
+
   .paragraph-aboutMe{
       text-align: left;
       font-size: 1rem;
       font-weight: 300;
 color: rgb(73, 73, 73);
       margin-top: 5px;
-      margin-bottom: 25px;
+      margin-bottom: 16px;
      
   }
 
