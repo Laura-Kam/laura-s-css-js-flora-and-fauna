@@ -3,12 +3,17 @@
 
 .main-header {
     width: 100%;
-    /* background: rgb(252, 252, 252); */
-    background-color: white;
     padding: 8px 16px;
    font-weight:500;
     margin-bottom: 0;
     margin-top: 0; 
+    position: fixed;
+   z-index:2;
+    background-color: rgb(254, 254, 254); /* Fully opaque very light grey */
+    /* included border and padding in viewport not content-box */
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 0;
 }
 
 
@@ -53,6 +58,7 @@ text-decoration: none;
     /* this makes the nav smaller so that the brand can fit inline (block); */
     width: calc(100% - 300px);
     vertical-align: middle;
+
    
 }
  
@@ -94,14 +100,7 @@ grouping stylesheets if the value is the same */
     font-weight: bold;
 }
 
-/* fixed position added to always have nav bar visible at top */
-header.main-header {
-    position: fixed;
-    top:0px;
-    background-color: rgba(128, 128, 128, 0.023);
-    /* included border and padding in viewport not content-box */
-    box-sizing: border-box;
-}
+
 
 
 /* END OF NAV SECTION */

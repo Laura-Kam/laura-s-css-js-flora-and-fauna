@@ -7,15 +7,17 @@
     <title>Laura's Flora and Fauna</title>
     <!-- Why should css be in the head section? -->
     <!-- CSS loads before page content - faster speed -->
-    <link rel="stylesheet" type="text/css" href="../css/globalStyle.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../css/globalStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/headerStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/globalStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/heroStyle.css" />
-
-    <link rel="stylesheet" type="text/css" href="./reactProjects.css" />
+    <link rel="stylesheet" type="text/css" href="../css/projectsSection.css" />
+    <link rel="stylesheet" type="text/css" href="../css/myAchievements.css" />
     <link rel="stylesheet" type="text/css" href="../css/mainFooter.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" /> -->
     <!-- Why is link used? -->
     <!-- For external stylesheets -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +42,7 @@
     <!-- HEADER -->
     <header class="main-header">
       <div>
-        <a class="main-header__brand" id="my-brand-name-id" href="./brand"
+        <a class="main-header__brand" id="my-brand-name-id" href="./index.html"
           >Laura Kam Web Dev</a
         >
       </div>
@@ -54,7 +56,7 @@
             <a href="/javascriptprojects">HTML/CSS/JS Projects</a>
           </li>
           <li class="main-nav__item main-nav__item3">
-            <a href="/cssprojects">React Projects</a>
+            <a href="./reactProjects/index.html">React Projects</a>
           </li>
           <li class="main-nav__item main-nav__item4">
             <a href="/uxuivisualprojects">API Projects</a>
@@ -69,16 +71,25 @@
 
           <br />
         </ul>
-      </nav>
+      </nav> -->
       <!-- END OF NAV -->
-    </header>
+    <!-- </header> -->
+    <!-- HERO -->
+    <!-- <hero> </hero> -->
+    <!-- END OF HERO -->
+    <!-- MAIN CONTACT FORM SECTION -->
     <main>
-      <h1 class="page-name-reactProjects">React Projects</h1>
-      <!-- <div class="react-page-header-image"></div> -->
-      <div id="top-project-background"></div>
-      <div id="random-div">RANDOM DIV</div>
+      <form action="" id="form">
+        <input type="text" id="clientName" placeholder="Name" />
+        <input type="text" id="surname" placeholder="surname" />
+        <input type="text" id="email" placeholder="email" />
+        <input type="submit" value="submit" />
+      
+  <h1>JAVASCRIPT</h1>
+      </form>
+      <!-- END OF CONTACT FORM SECTION -->
     </main>
-    <footer class="main-footer">
+    <!-- <footer class="main-footer">
       <nav>
         <ul>
           <li><a href="#">Blog </a></li>
@@ -89,9 +100,14 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </footer>
+    </footer> -->
 
-    <!-- To link to JS files. -->
-    <script src="index.js"></script>
+    <!-- END OF MAIN PROJECT SECTION -->
+
+    <!-- why is script at the bottom of body? -->
+    <!-- Loads content before js, functionality faster load -->
+    <!-- why script used? -->
+    To link to JS files.
+    <script src="./form.js"></script>
   </body>
 </html>
